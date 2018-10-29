@@ -251,7 +251,7 @@
           
           <li class="menu-item menu-item-categories menu-item-active">
     <a href="/categories/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-list"></i> <br>Categories<span class="badge">2</span></a>
+      <i class="menu-item-icon fa fa-fw fa-list"></i> <br>Categories<span class="badge">3</span></a>
   </li>
         
         
@@ -386,10 +386,14 @@
                     
                   
                 
-                2 categories in total
+                  
+                    
+                  
+                
+                3 categories in total
             </div>
             <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/art/">art</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/origine/">origine</a><span class="category-list-count">1</span></li></ul>
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/art/">art</a><span class="category-list-count">5</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/art/paint/">paint</a><span class="category-list-count">5</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/origine/">origine</a><span class="category-list-count">1</span></li></ul>
             </div>
           </div>
         
@@ -410,12 +414,6 @@
 
           </div>
           
-
-  
-     <div id="gitalk-container"></div>
-  
-
-
 
         </div>
         
@@ -471,7 +469,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -738,21 +738,6 @@
 
 
 
-
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-   <script type="text/javascript">
-        var gitalk = new Gitalk({
-          clientID: 'Client ID',
-          clientSecret: 'Client Secret',
-          repo: 'gitalk',
-          owner: 'voyage1970',
-          admin: ['voyage1970'],
-          id: location.pathname,
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')           
-       </script>
 
 
   
